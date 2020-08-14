@@ -7,9 +7,36 @@
 <body>
 <h1> Registration form </h1>
 <form action = "results.html" >
-Name: <input = "text" name="username" value="Enter name">
-Password: <input = "text" name="pwd" value="Enter password">
-<input type = "submit" value="login">
+Name: <input = "text" name="username" placeholder="Enter name">
+Password: <input = "text" name="pwd" placeholder="Enter password">
+<h1> Are you married </h1>
+
+<label for = "mm">Yes</label>
+<input id = "mm" type = "radio" name ="married" value ="Married">
+<label for = "nm">No</label>
+<input id = "nm" type = "radio" name ="married" value ="unmarried">
+
+
+Enter Payment mode
+<select name = "pmode" multiple>
+<option value = "ccard">Credit Card</option>
+<option value = "dcard"> Debit Card</option>
+<option>Net Banking</option>
+<option>Pay pal</option>
+</select>
+
+Choose your known language
+<input type="checkbox" name = "language" value="eng"> English
+<input type="checkbox" name = "language" value="hin"> Hindi
+<input type="checkbox" name = "language" value="beng"> Bengali
+
+Enter your feedback
+<textarea name = "feedback" rows= 8 cols = 80>
+</textarea><br>
+
+
+
+<input type = "submit" value="Submit">
 </form>
 
 </body>
