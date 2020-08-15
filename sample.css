@@ -17,6 +17,14 @@ ul
 {
   color: green
 }
-body{
+/* body{
   background:  yellow
+} */
+img
+{
+  border-top:  blue 20px solid;
+}
+body{
+  background-image:  url("background.jpeg");
+
 }
